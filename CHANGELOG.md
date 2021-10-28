@@ -23,6 +23,7 @@ CHANGELOG
 **CHANGES**
 - Drop support for SysVinit. Only Systemd is supported.
 - Include tags from cluster configuration file in the RunInstances dry runs performed during configuration validation.
+- Allow '*' character in the configuration of S3Access/BucketName.
 
 **BUG FIXES**
 - Pin to the transitive dependencies resulting from the dependency on connexion.
@@ -116,12 +117,6 @@ CHANGELOG
 - Add tag 'Name' to every shared storage with the value specified in the shared storage name config.
 - Remove installation of MPICH and FFTW packages.
 - Remove Ganglia support.
-
-2.11.3
------
-
-**CHANGES**
-- Include tags from cluster configuration file in the RunInstances dry runs performed during configuration validation.
 
 2.11.2
 -----
